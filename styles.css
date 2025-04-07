@@ -4,3 +4,58 @@
   box-sizing: border-box;
   font-family: Poppins;  
 }
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: beige;
+}
+
+.navBar{
+display: flex;
+margin-top: 5px;
+flex-direction: row;
+justify-content:center;
+margin-top: 5px;
+gap: 500px;
+font-weight: bold;
+font-size: medium;
+
+}
+
+.navBar .links{
+    gap: 100px;
+    border-radius: 50px;
+    height: 3%;
+
+}
+.links:hover{
+    color:white
+}
+.logobutton{
+   height: 50px;
+   width: 90px;
+   overflow: hidden;
+   object-fit: cover;
+   margin-top: 8px;
+   margin-left: 20px;
+
+
+}
+.logobutton:hover{
+    color:white
+}
+
+.menus{
+    display: flex;
+    gap: 30px;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-top: 10px;
+    justify-content: center;
+    list-style: none;
+}
+
+#home ,#Galleries{
+    text-decoration: none;
+}
+
