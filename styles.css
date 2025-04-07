@@ -23,9 +23,11 @@ font-size: medium;
 }
 
 .navBar .links{
-    gap: 100px;
-    border-radius: 50px;
+    gap:10px;
+    border: none;
     height: 3%;
+    display: flex;
+    justify-content: flex-end;
 
 }
 .links:hover{
@@ -54,8 +56,208 @@ font-size: medium;
     justify-content: center;
     list-style: none;
 }
-
-#home ,#Galleries{
+.menus a{
     text-decoration: none;
+    color: black;
+}
+.menus :hover{
+    color:rgb(200, 201, 201);
+}
+
+.Mainmenu{
+    text-decoration: none;
+}
+.heroSection{
+
+}
+
+.heroSection .image1{
+    margin-top: 10px;
+   height: 100vh;
+   width: 100vw;
+   position: relative;
+
+}
+.image1 img{
+    margin-left: 10px;
+    height: 700px;
+    width: 900px;
+    position: absolute;
+}
+.heroSection .card{
+    background-color:white; 
+    border-left: 5px solid green;
+    border-right: 3px solid black;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    color: rgb(21, 13, 9);
+   height: 250px;
+   width: 400px;
+
+}
+.heroSection .card #enghead{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    font-style: italic;
+}
+.heroSection .card #engpara{
+    margin-top: 15px;
+    text-align: center;
+    font-style: italic;
+    font-weight:bold;
+}
+.heroSection .card .buttons{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap:30px; 
+}
+.heroSection .card .buttons .firstButton button{
+    background-color: rgb(2, 153, 2);
+    color: black;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+}
+.heroSection .card .buttons .secondButton button {
+    height: 50px;
+    color:rgb(11, 11, 11);
+    border-radius: 10px;
+    width: 100px;
+    
+}
+
+ /* Image 2 */
+
+ .heroSection .images2{
+    margin-top: 10px;
+   height: 100vh;
+   width: 100vw;
+   position: relative;
+
+}
+.images2  img{
+    margin-left: 10px;
+    height: 700px;
+    width: 900px;
+    position: absolute;
+}
+.heroSection .card1{
+    background-color:white; 
+    border-left: 5px solid green;
+    border-right: 3px solid black;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    color: rgb(21, 13, 9);
+   height: 250px;
+   width: 400px;
+
+}
+.heroSection .card1 #head{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    font-style: italic;
+}
+.heroSection .card1 #para{
+    margin-top: 15px;
+    text-align: center;
+    font-style: italic;
+    font-weight:bold;
+}
+.heroSection .card1 .buttons{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap:30px; 
+}
+.heroSection .card1 .buttons .firstButton button{
+    background-color: rgb(2, 153, 2);
+    color: black;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+}
+.heroSection .card1 .buttons .secondButton button {
+    height: 50px;
+    color:rgb(11, 11, 11);
+    border-radius: 10px;
+    width: 100px;
+    
+}
+
+
+/* Card 3 */
+
+
+
+.heroSection .image3{
+    margin-top: 10px;
+   height: 100vh;
+   width: 100vw;
+   position: relative;
+
+}
+.image3 img{
+    margin-left: 10px;
+    height: 700px;
+    width: 900px;
+    position: absolute;
+}
+.heroSection .cards{
+    background-color:white; 
+    border-left: 5px solid green;
+    border-right: 3px solid black;
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    color: rgb(21, 13, 9);
+   height: 250px;
+   width: 400px;
+
+}
+.heroSection .cards #heada{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    font-style: italic;
+}
+.heroSection .cards #paraa{
+    margin-top: 15px;
+    text-align: center;
+    font-style: italic;
+    font-weight:bold;
+}
+.heroSection .cards .buttons{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap:30px; 
+}
+.heroSection .cards .buttons .firstButton button{
+    background-color: rgb(2, 153, 2);
+    color: black;
+    border-radius: 10px;
+    height: 50px;
+    width: 100px;
+}
+.heroSection .cards .buttons .secondButton button {
+    height: 50px;
+    color:rgb(11, 11, 11);
+    border-radius: 10px;
+    width: 100px;
+    
 }
 
